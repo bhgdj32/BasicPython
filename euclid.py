@@ -1,9 +1,9 @@
 def euclid(a,b):
-    r = a % b
+    r = 1
     while r != 0:
         r = a % b
         a , b = b , r
-        return b
+return a
 a = int(input())
 b = int(input())
 def euclid_prime_number(a,b):
